@@ -19,6 +19,7 @@ const api = {
       throw error;
       
     }
+  }}
 const getCareerById = async (id) => {
     try {
       const response = await fetch(`${API_BASE_URL}/api/careers/${id}`);
