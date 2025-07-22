@@ -1,19 +1,27 @@
 import React from 'react'
 import CareerCard from './CareerCard'
 
-function CareerList({careers, searchCriteria, AddFavorite,}) {
+function CareerList({careers, searchCriteria }) {
 const filteredCareers = careers.filter(career => {
-  const matchesEducation = !searchCriteria.educationLevel||
+  const matchesEducationLevel= !searchCriteria.educationLevel||
     career.educationLevel === searchCriteria.educationLevel;
 
-  const matchCourse = !searchCriteria.Course ||
-    career.category.toLowerCase().includes(searchCriteria.interest.toLowerCase())||
-    career.requiredSkills.some(skill =>
-      skill.toLowerCase().includes(searchCriteria.Course.toLowerCase())); 
+  const grades = !searchCriteria.grades ||
+    career.grades.toLowerCase().includes(searchCriteria.interest.toLowerCase())||
+     career.grades === searchCriteria.grades; 
 
+  const career = !searchCriteria.courses ||
+    career.courses.toLowerCase().includes(searchCriteria.courses.toLowerCase()) ||
+    career.courses === searchCriteria.courses;   
+
+    return matchesEducationLevel && grades && career;
+  });
+    
   return (
-    <div>CareerList</div>
-  )
-}
+    <div className='career-list'>
+
+      <h2>Career List</h2>
+      
+
 
 export default CareerList
