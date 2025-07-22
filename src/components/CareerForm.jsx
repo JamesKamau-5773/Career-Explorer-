@@ -24,13 +24,15 @@ function CareerForm({updateSearchCriteria}) {
         <option value="Title">Select Career</option>
         <option value="EducationLevel">Select EducationLevel</option>
       </select>
-      <button type='submit'>Find Careers</button>
+      <button type='submit'>FindCareers</button>
       </form>
 
     </div>
   
+  
 
   )
+}
 }
 
 export default CareerForm
