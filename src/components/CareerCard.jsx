@@ -13,13 +13,14 @@ function CareerCard({career,onEdit,onDelete,addFavorite}) {
       <p>{description}</p>
       <p>Salary Range: {salaryRange}</p>
       <p>Required Skills: {requiredSkills.join(', ')}</p>
-      <p>Educational Level: {educationalLevel}</p>
+      <p>Educational Level: {educationalLevel.join(', ')}</p>
       <p>Required Grades: {requiredGrades.join(', ')}</p>
-      <div className='CardButtons'>
+      <div className='CardBtns'>
         <button onClick={() => onEdit(id)}>Edit</button>
         <button onClick={() => onDelete(id)}>Delete</button>
         <button onClick={handleAddFavorite}>Add to Favorites</button>
-         {isFavorite ? "❤️" : "♡"}
+         {isFavorite ? "❤️ Unfavorite" : "♡ favorite"}
+      </div>
     </div>  
   )
 }
