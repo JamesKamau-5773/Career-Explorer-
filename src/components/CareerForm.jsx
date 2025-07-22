@@ -15,7 +15,11 @@ function CareerForm({updateSearchCriteria}) {
     e.preventDefault();
     updateSearchCriteria(formData);
   };
- 
+  return (
+    <div className="career-form">
+  
+
+      </form>
 
     </div>
   
