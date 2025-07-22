@@ -17,7 +17,10 @@ function CareerForm({updateSearchCriteria}) {
   };
   return (
     <div className="career-form">
-  
+      <form onSubmit={handleSubmit}>
+        <h2>Find Your Career path</h2>
+      <select name="grade" value={formData.grade} onChange={handleChange}>
+        <option value="Grade">Select Grade</option>
 
       </form>
 
