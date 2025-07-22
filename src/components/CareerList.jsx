@@ -21,7 +21,22 @@ const filteredCareers = careers.filter(career => {
     <div className='career-list'>
 
       <h2>Career List</h2>
-      
+      {filteredCareers.length > 0 ? (
+      filteredCareers.map((career) => (
+        <div className='career-card' key={career.id}>
+          <CareerCard/>
+        </div>
+      ))
+      ) : (
+        
+        
+        <p>No careers found matching your criteria.</p>
+        
+      )}
+    
+    </div>
+  );
+};
 
 
 export default CareerList
