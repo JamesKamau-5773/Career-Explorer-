@@ -1,0 +1,119 @@
+{"careers": [      
+{
+    "id":1,
+    "title":"Software Engineer",
+    "description":"Develops and maintains software applications.",
+    "salaryRange":"$70,000 - $120,000",
+    "requiredSkills":["Java, Python, C++"],
+    "educationLevel":"Bachelor's Degree",
+    "requiredGrades":["A", "B"]
+    },
+    
+    
+    {
+    "id":2,
+    "title":"Nursing ",
+    "description":"Taking care of patients and assisting doctors.",
+    "salaryRange":"$50,000 - $70,000",
+    "requiredSkills":["Compassion, Attention to Detail"],
+    "educationLevel":["Bachelor's Degree in Nursing,Diploma in Nursing"],
+    "requiredGrades":["A", "B", "C"]
+    },
+    
+    
+    {
+    "id":3,
+    "title":"Hospitality",
+    "description":"Cooking and serving food in restaurants.",
+    "salaryRange":"$50,000 - $70,000",
+    "requiredSkills":["Customer Service, Cooking Skills"],
+    "educationLevel":["High School Diploma, Associate's Degree in Culinary Arts"],
+    "requiredGrades":["A", "B", "C", "D"]
+    },
+    
+    
+    
+
+    {
+    "id":4,
+    "title":"Welding",
+    "description":"Joining metal parts using heat and tools.",
+    "salaryRange":"$40,000 - $60,000",
+    "requiredSkills":["Attention to Detail, Physical Stamina"],
+    "educationLevel":["High School Diploma, Vocational Training in Welding"],
+    "requiredGrades":["A", "B", "C", "D", "E"]
+    },
+    
+    
+  
+    {
+    "id":5,
+    "title":"Event Planning",
+    "description":"Organizes events like weddings and parties.",
+    "salaryRange":"$50,000-300,000",
+    "requiredSkills":["Organization, Communication"],
+    "educationLevel":["High School Diploma, Bachelor's Degree in Event Management"],
+    "requiredGrades":["A", "B", "C", "D", "E"]
+    },
+    
+    
+    
+    {
+    "id":6,
+    "title":"Mortuary Science",
+    "description":"Managing funeral services and embalming bodies.",
+    "salaryRange":"$70,000 - $120,000",
+    "requiredSkills":["Compassion, Attention to Detail"],
+    "educationLevel":["Associate's Degree in Mortuary Science, Bachelor's Degree in Mortuary Science"],
+    "requiredGrades":["A", "B", "C"]
+    },
+    
+    
+   
+    {
+    "id":7,
+    "title":"Pilot",
+    "description":"Flying aircraft and ensuring passenger safety.",
+    "salaryRange":"$80,000 - $150,000",
+    "requiredSkills":["Attention to Detail, Physical Stamina"],
+    "educationLevel":["Bachelor's Degree in Aviation, Commercial Pilot License"],
+    "requiredGrades":["A", "B", "C"]
+    },
+    
+    
+   
+
+    {
+    "id":8,
+    "title":"Data Science",
+    "description":"Develops and maintains software applications.",
+    "salaryRange":"$80,000 - $150,000",
+    "requiredSkills":["Python, R, SQL"],
+    "educationLevel":["Master's Degree in Data Science, Bachelor's Degree in Computer Science"],
+    "requiredGrades":["A", "B", "C"]
+    },
+    
+    
+    
+    {
+    "id":9,
+    "title":"Civil Engineering",
+    "description":"Plans and designs infrastructure projects.",
+    "salaryRange":"$80,000 - $150,000",
+    "requiredSkills":["Project Management, Structural Analysis"],
+    "educationLevel":["Master's Degree in Civil Engineering, Bachelor's Degree in Civil Engineering"],
+    "requiredGrades":["A", "B", "C"]
+    },
+    
+    
+    
+    {
+    "id":10,
+    "title":"Caregiver",
+    "description":"Taking care of patients .",
+    "salaryRange":"$70,000 - $120,000",
+    "requiredSkills":["Compassion, Attention to Detail"],
+    "educationLevel":["High School Diploma, Associate's Degree in Healthcare"],
+    "requiredGrades":["A", "B", "C", "D", "E"]
+    }
+     ] }
