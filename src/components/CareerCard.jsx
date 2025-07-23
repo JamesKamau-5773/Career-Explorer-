@@ -1,8 +1,27 @@
 import React from 'react'
 
-const CareerCard = () => {
+function CareerCard({career,onEdit,onDelete,addFavorite}) {
+  const handleAddFavorite = (e) => {
+   e.preventDefault()
+    addFavorite(career.id);
+  
+  };
+  const { id, title, description, salaryRange, requiredSkills,educationalLevel,requiredGrades } = career;
   return (
-    <div>CareerCard</div>
+    <div className='Card'>
+      <h1>{title}</h1>
+      <p>{description}</p>
+      <p>Salary Range: {salaryRange}</p>
+      <p>Required Skills: {requiredSkills.join(', ')}</p>
+      <p>Educational Level: {educationalLevel.join(', ')}</p>
+      <p>Required Grades: {requiredGrades.join(', ')}</p>
+      <div className='CardBtns'>
+        <button onClick={() => onEdit(id)}>Edit</button>
+        <button onClick={() => onDelete(id)}>Delete</button>
+        <button onClick={handleAddFavorite}>Add to Favorites</button>
+         {isFavorite ? "❤️ Unfavorite" : "♡ favorite"}
+      </div>
+    </div>  
   )
 }
 
