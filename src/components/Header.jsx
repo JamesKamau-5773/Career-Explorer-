@@ -7,10 +7,10 @@ function Header() {
       <h1>CAREER EXPLORER</h1>
       <nav>
         <Link to="/.">Home</Link>{""}
-        <Link to="/Favorites">Favourites</Link>{""}
         <Link to="/Search">Search</Link>{""}
-        <Link to="/Contacts">Contacts</Link>{""}
-        <Link to="/AddCareer">Add Career</Link>
+        <Link to="/careers">Careers</Link>{""}
+        <Link to="/All Careers">All Careers</Link>{""}
+        <Link to="/Contacts">Contact</Link>{""}
       </nav>
     </Header>
   )
